@@ -24,4 +24,11 @@ public class MyCalculatorTest
     {
         Assert.assertEquals(50,calc.sub(80,30));
     }
+
+    @Test
+    public void divide()
+    {
+        Assert.assertEquals(15, calc.div(135,9 ));
+    }
+
 }
