@@ -18,4 +18,10 @@ public class MyCalculatorTest
     {
         Assert.assertEquals(100, calc.multi(10, 10));
     }
+
+    @Test
+    public void subtract()
+    {
+        Assert.assertEquals(50,calc.sub(80,30));
+    }
 }
