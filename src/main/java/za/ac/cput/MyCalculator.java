@@ -13,4 +13,10 @@ public class MyCalculator
     {
         return a * b;
     }
+    
+    //Division
+    public double divide(double a, double b)
+    {
+        return a / b;
+    }
 }
